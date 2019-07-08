@@ -6,17 +6,14 @@ import time
 ADDRESS = 'https://sc.hkexnews.hk/TuniS/www.hkexnews.hk/index_c.htm'
 
 
-def searching_action(stock_code, browser):
-
-
-
-    return
-
-
-
-def doc_download():
-	return
-
+def greedy_digging(doppler):
+	try:
+		loadmore = doppler.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[1]/ul/li/a')
+		if loadmore:
+			doppler.execute_script("arguments[0].click();", loadmore)
+			greedy_digging(doppler)
+	except:
+		print("nothing more")
 
 
 search_keys = '00001'
@@ -29,16 +26,17 @@ time.sleep(3)
 confirmbutton = browser.find_element_by_xpath('//*[@id="tab-panel-title-search"]/form/div/div[3]/a[3]').click()
 time.sleep(3)
 
-#print(browser.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[2]'))
+greedy_digging(browser)
+time.sleep(3)
 #while (browser.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[2]')):
 #	browser.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[2]').click()
 #	time.sleep(2)
 
 
-html=browser.page_source
+html = browser.page_source
 
 
-soup=BeautifulSoup(html,'lxml')
+soup = BeautifulSoup(html, 'lxml')
 pdf_files = soup.select('div[class="doc-link"]')
 
 pdf_url_list = list()
