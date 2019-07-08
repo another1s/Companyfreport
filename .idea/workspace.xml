@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dd6c32-c3e1-450c-b680-14f6680ea3ce" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/HK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HK.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/长和.txt" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> nothing strange
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +60,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ply.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="315">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+=======
+            <state relative-caret-position="1102">
+              <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+>>>>>>> nothing strange
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -65,6 +74,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jeff_required.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,6 +96,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> nothing strange
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -225,8 +237,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hk.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> nothing strange
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Hk.py" />
@@ -267,8 +292,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ply.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="315">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+=======
+        <state relative-caret-position="1102">
+          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+>>>>>>> nothing strange
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
