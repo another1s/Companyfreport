@@ -7,8 +7,13 @@ verify_ssl = true
 
 [packages]
 beautifulsoup4 = "*"
+<<<<<<< HEAD
 requests = "*"
 selenium = "*"
+=======
+selenium = "*"
+requests = "*"
+>>>>>>> regular commit
 
 [requires]
 python_version = "3.6"
