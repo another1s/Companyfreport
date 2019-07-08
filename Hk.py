@@ -12,3 +12,6 @@ def searching_action(stock_code, browser):
     return
 
 browser = webdriver.Chrome()
+browser.get(ADDRESS)
+button = browser.find_element_by_xpath('//*[@id="searchStockCode"]')
+#print(button)
