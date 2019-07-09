@@ -19,24 +19,27 @@ def greedy_digging(doppler):
 search_keys = '00001'
 browser = webdriver.Chrome()
 browser.get(ADDRESS)
+
+# set up company name and code
 searchbar = browser.find_element_by_xpath('//*[@id="searchStockCode"]').send_keys(search_keys)
 time.sleep(3)
 listbox = browser.find_element_by_xpath('//*[@id="autocomplete-list-0"]/div[1]/div[1]/table/tbody/tr[1]/td[2]/span').click()
 time.sleep(3)
-
+# limiting range of the searching : focus on financial statement
 openlist = browser.find_element_by_xpath('//*[@id="tier1-select"]/div/div/a').click()
 time.sleep(3)
-test = browser.find_element_by_xpath('//*[@id="tier1-select"]/div/div/a')
-
 filetype = browser.find_element_by_link_text('Headline Category').click()
 time.sleep(3)
+opensublist = browser.find_element_by_xpath('//*[@id="rbAfter2006"]/div[1]/div/div/a').click()
+time.sleep(2)
+financial_statement = browser.find_element_by_link_text('Financial Statements/ESG Information').click()
+time.sleep(2)
+fetch_all = browser.find_elements_by_link_text('ALL')
+target = fetch_all[2].click()
 confirmbutton = browser.find_element_by_xpath('//*[@id="tab-panel-title-search"]/form/div/div[3]/a[3]').click()
 time.sleep(3)
 
-financial_statement = browser.find_element_by_xpath('//*[@id="rbAfter2006"]/div[2]/div/div/ul/li[5]/a').click()
-time.sleep(2)
-fetch_all = browser.find_element_by_xpath('//*[@id="rbAfter2006"]/div[2]/div/div/ul/li[5]/div/ul/li[1]/a').click()
-time.sleep(2)
+
 greedy_digging(browser)
 time.sleep(3)
 #while (browser.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[2]')):
@@ -61,7 +64,7 @@ for f in pdf_files:
     #pdf_url = f.find_next_sibling('a')
     #print(pdf_url)
 
-with open("长和.txt", 'w') as f:
+with open("长和财报.txt", 'w') as f:
     for pdf in pdf_url_list:
         prefix = "https://www1.hkexnews.hk"
         f.write(prefix+pdf)
