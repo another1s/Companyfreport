@@ -26,6 +26,8 @@ time.sleep(3)
 confirmbutton = browser.find_element_by_xpath('//*[@id="tab-panel-title-search"]/form/div/div[3]/a[3]').click()
 time.sleep(3)
 
+
+
 greedy_digging(browser)
 time.sleep(3)
 #while (browser.find_element_by_xpath('//*[@id="recordCountPanel2"]/div[1]/div/div[2]')):

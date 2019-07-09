@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31dd6c32-c3e1-450c-b680-14f6680ea3ce" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/HK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HK.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -10,6 +11,9 @@
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> nothing strange
+=======
+      <change beforePath="$PROJECT_DIR$/ply.py" beforeDir="false" afterPath="$PROJECT_DIR$/ply.py" afterDir="false" />
+>>>>>>> have no idea what changed
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +65,7 @@
         <entry file="file://$PROJECT_DIR$/ply.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="315">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
 =======
@@ -80,6 +85,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="860">
               <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+=======
+            <state relative-caret-position="228">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> have no idea what changed
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -293,12 +302,17 @@
     <entry file="file://$PROJECT_DIR$/ply.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="315">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
 =======
         <state relative-caret-position="1102">
           <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
 >>>>>>> nothing strange
+=======
+        <state relative-caret-position="228">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> have no idea what changed
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
