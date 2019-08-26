@@ -11,6 +11,9 @@ requests = "*"
 selenium = "*"
 zope-interface = "*"
 lxml = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.6"
